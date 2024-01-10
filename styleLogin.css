@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --btnGreen: #90EE90  /* Define a variable for the button color */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(registrationbg.png) no-repeat fixed; /* Change to your login background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-header {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.error-message {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+}
+
+input[type="password"] {
+    position: relative;
+}
+
+#pass-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.option-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+option-wrapper span,
+option-wrapper a {
+    margin: 5px 0; /* Add some vertical spacing between the links and the button */
+}
+button {
+    width: 5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: green;
+    background-color: var(--btnGreen);
+}

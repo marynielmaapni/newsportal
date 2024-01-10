@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(registrationbg.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+}
+
+.form-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* If you want to stack the icon and the heading vertically */
+    margin-bottom: 20px; /* Add some spacing between the icon and the heading */
+}
+
+.icon i {
+    font-size: 5em; /* Adjust the size as needed */
+    color: #25a18e;
+}

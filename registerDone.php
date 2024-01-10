@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Completed</title>
+    <script src="https://kit.fontawesome.com/678a3c402d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleRegisterDone.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" method="post">
+            <div class="icon">
+                <i class="fa-solid fa-circle-check" style="color: #25a18e;"></i>
+            </div>
+            <div class="form-heading">
+                Congratulations!
+            </div>
+            <p style="text-align: center;">
+                Your registration is completed. Log-in now to discover and explore all of CCIS News' features.
+            </p>
+            
+           
+            <!-- Add a button to go back to index.php -->
+			<center><a href="index.php" class="back-link" style="color: blue">Go Back to Home</a></center>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
